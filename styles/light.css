@@ -34,7 +34,7 @@
     --decorated-zone-color: #353430;
   }
   
-  .theme_light .decorated__element-theme-dark{
+  .theme_light .decorated__element-theme-dark {
     visibility: hidden;
   }
 

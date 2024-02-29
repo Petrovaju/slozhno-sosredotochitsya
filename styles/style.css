@@ -256,6 +256,7 @@
 
   .header__title {
     margin-inline-start: -20px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__text-block {
@@ -299,6 +300,7 @@
   .content__section-list-title-image {
     grid-row: 1;
     grid-column: 1/4;
+    margin-block-end: 0px;
   }
 
   .gallery__image-sunset {
@@ -324,13 +326,6 @@
   .gallery__image-street {
     grid-row: 4;
     grid-column: 2/4;
-  }
-
-  .content__section-list-title-image {
-    margin-block-end: 0px;
-  }
-  .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .footer__title {
