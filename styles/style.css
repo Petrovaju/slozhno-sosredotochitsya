@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  font-family: "IBM Plex mono", sans-serif;
+  font-family: "IBM Plex mono", monospace;
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@
 }
 
 .header__title {
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--font-size-title);
   color: var(--title-text-color);
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 82.5%;
@@ -182,10 +182,6 @@
   outline: 1px solid var(--text-color);
 }
 
-.paragraph__link:focus {
-  outline: none;
-}
-
 .text-hadow {
   text-shadow: 2px 2px 0 var(--accent-color);
 }
@@ -224,7 +220,7 @@
 .footer__title {
   align-self: center;
   text-align: center;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--font-size-title);
   color: var(--title-text-color);
   text-shadow: 2px 2px 0 var(--accent-color);
   line-height: 82.5%;
@@ -256,7 +252,7 @@
 
   .header__title {
     margin-inline-start: -20px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--font-size-title);
   }
 
   .header__text-block {
@@ -329,7 +325,7 @@
   }
 
   .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--font-size-title);
   }
 }
 
